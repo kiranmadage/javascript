@@ -1,17 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+
+import { Dmart } from './View/Mall/Mall';
+import { Mcard } from './View/Mall/Block/Block';
+import { New } from './View/Mall/Block/Block2';
+
+
+import { Info } from './View/Mall/Block/Info';
+import { Data } from './Map function/CardData';
+import { Use } from './Camponant/Card/id/UseState/UseState';
+import { Effect } from './Camponant/Card/id/UseState/UseState_UseEffect';
+
+import { Box } from './Interview/int';
+// import { Main } from './Interview/main';
+
+
+
+
+
+// const routes = createBrowserRouter(
+//   [
+
+//     {
+//       path: '/',
+//       element: <Mcard/>,
+//     },
+//     {
+//       path :'/Info/:id',
+//       element: <Info/>
+//     },
+
+
+
+//   ]
+// )
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    {/* <RouterProvider router={routes}/> */}
+
+    {/* <Dmart /> */}
+    {/* <Mcard /> */}
+    {/* <New/>  */}
+    {/* <Data/> */}
+    {/* <Use /> */}
+    {/* <Effect/> */}
+
+    <Box/>
+  </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+

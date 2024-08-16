@@ -1,0 +1,44 @@
+.maincard {
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.text {
+    text-align: center;
+}
+
+.img {
+    margin: 10px;
+    border-radius: 20px;
+    height: 300px;
+    width: 280px;
+}
+
+.bg-MenClothi {
+    background-color: rgba(105, 162, 195, 0.58);
+}
+
+.bg-Watch {
+    background-color: rgba(133, 85, 118, 0.395);
+}
+
+.bg-Footwear {
+    background-color: rgba(131, 193, 172, 0.589);
+}
+
+.but {
+    height: 28px;
+    margin-left: 110px;
+    background-color:rgba(92, 81, 245, 0.824);
+    
+}
+
+.but a{
+    text-decoration: none;
+    color: white;
+   
+}
